@@ -1,0 +1,51 @@
+.CheckAds {
+    padding-bottom: 60px;
+}
+
+.Panel {
+    position: fixed;
+    top: 60px;
+    width: stretch;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0 0;
+    background-color: rgba(239, 186, 45, 0.2);
+    box-shadow: 0px 2px 2px gray;
+}
+
+.Return {
+    background-color: rgba(226, 226, 226, 0.5);
+    position: fixed;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 0 0 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Return:hover {
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.Row {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto 0 auto;
+}
+
+.PageNumber {
+    width: 80px;
+}
+
+.PageNumber h3 {
+    text-align: center;
+    vertical-align: center;
+    font-size: 24px;
+}
+
+.Pages {
+    text-align: center;
+    margin: 15px auto;
+}

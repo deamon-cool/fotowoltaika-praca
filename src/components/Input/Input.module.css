@@ -1,0 +1,32 @@
+.InputContainer {
+    padding: 10px;
+}
+
+.InputContainer .Input {
+    font-size       : 20px;
+    width           : 90%;
+    background-color: white;
+    box-shadow      : 5px 5px 5px gray;
+    padding         : 10px;
+    border          : 1px solid rgb(226, 226, 226);
+    border-radius   : 10px;
+}
+
+.Input::placeholder {
+    color: gray;
+}
+
+.Input:focus {
+    outline         : none;
+    background-color: rgb(255, 230, 183);
+}
+
+.Input:disabled {
+    background-color: gray;
+}
+
+.Warning {
+    font-size : 10px;
+    color     : red;
+    text-align: center;
+}

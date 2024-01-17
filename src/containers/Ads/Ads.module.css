@@ -1,0 +1,48 @@
+.Ads {
+    padding-bottom: 60px;
+}
+
+.Panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px 10px;
+}
+
+.PanelRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.Row {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto 0 auto;
+}
+
+.PageNumber {
+    width: 80px;
+}
+
+.PageNumber h3 {
+    text-align: center;
+    vertical-align: center;
+    font-size: 24px;
+}
+
+.Pages {
+    text-align: center;
+    margin: 15px auto;
+}
+
+@media (min-width: 600px) {
+    .Panel {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1050px) {
+    .Panel {
+        padding: 0 200px;
+    }
+}

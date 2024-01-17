@@ -1,0 +1,9 @@
+.List {
+    /* overflow-y: auto; */
+}
+
+@media (min-width: 1050px) {
+    .List {
+        padding: 0 200px;
+    }
+}

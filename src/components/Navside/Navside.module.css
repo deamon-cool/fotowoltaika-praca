@@ -1,0 +1,42 @@
+.Navside {
+    position        : fixed;
+    top             : 0;
+    right           : 0;
+    width           : 270px;
+    height          : 100%;
+    z-index         : 300;
+    background-color: white;
+    box-shadow      : -2px 0px 2px gray;
+}
+
+.Navside a {
+    text-decoration: none;
+    color          : black;
+}
+
+.Navside a:hover {
+    text-decoration: none;
+    color          : black;
+}
+
+.Navside li:first-of-type {
+    padding-top: 15px;
+}
+
+.Navside li {
+    list-style   : none;
+    text-align   : center;
+    font-size    : 16px;
+    padding      : 10px 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    cursor       : pointer;
+}
+
+.Navside li:hover {
+    background-image: linear-gradient(to right, rgb(239, 186, 45), black);
+    color           : rgb(255, 230, 183);
+}
+
+.Navside li:hover a {
+    color: rgb(255, 230, 183);
+}

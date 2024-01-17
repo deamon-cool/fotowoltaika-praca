@@ -1,0 +1,22 @@
+.ImageButton {
+    width           : 60px;
+    padding         : 10px;
+    background-color: rgb(238, 178, 13);
+    margin-top      : auto;
+    margin-bottom   : auto;
+    border          : 1px solid black;
+    border-radius   : 10px;
+}
+
+.ImageButton:hover {
+    background-color: rgb(255, 230, 183);
+    cursor          : pointer;
+}
+
+.ImageButton:focus {
+    outline: none;
+}
+
+.Hide {
+    transform: scale(0);
+}

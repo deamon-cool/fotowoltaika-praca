@@ -1,0 +1,39 @@
+.PostsGenerator {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 60px;
+}
+
+.PaddingTop {
+    padding-top: 100px;
+}
+
+.Return {
+    background-color: rgba(226, 226, 226, 0.5);
+    position: fixed;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px 0 0 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Return:hover {
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.Title {
+    margin: 22px 0 22px 10px;
+}
+
+.PanelRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-top: 5px solid rgb(226, 226, 226);
+}
+
+.Info {
+    color: gray;
+}

@@ -1,0 +1,41 @@
+.ImageUploader {
+    display            : flex;
+    justify-content    : center;
+    flex-direction     : column;
+    width              : 100px;
+    height             : 200px;
+    padding            : 10px 30px;
+}
+
+.Button {
+    background-color: rgb(238, 178, 13);
+    width           : 100%;
+    padding         : 10px;
+    border          : none;
+    border-radius   : 10px;
+}
+
+.Button:hover {
+    background-color: rgb(255, 230, 183);
+    cursor          : pointer;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.InputFile {
+    display: none;
+}
+
+.Info {
+    font-size : 16px;
+    color     : gray;
+    text-align: center;
+}
+
+.Warning {
+    font-size : 16px;
+    color     : red;
+    text-align: center;
+}

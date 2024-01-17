@@ -1,0 +1,22 @@
+.ToggleButton {
+    font-size: 20px;
+    padding: 10px 15px;
+    max-width: 350px;
+    background-color: rgb(238, 178, 13);
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ToggleButton:focus {
+    outline: none;
+}
+
+.ToggleButton:active {
+    box-shadow: 1px 1px 1px gray;
+}
+
+.Clicked {
+    background-color: yellow;
+}
