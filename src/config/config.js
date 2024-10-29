@@ -1,6 +1,6 @@
 export const MY_SITE = 'https://fotowoltaikapraca.pl/';
 
-export const RECAPTCHA_CLIENT_SITE_KEY = '6Leo3okhAAAAABCywg_47LcYYQyp4jwkR66mexn0';
+export const RECAPTCHA_CLIENT_SITE_KEY = '6Lc57FMpAAAAAEKXyfJoHfxAl78w6-zmxoXljLAN';
 export const API_URL = '/api';
 
 export const PUBLIC_INFORMATION_FETCH = '/informacja-publiczna';
