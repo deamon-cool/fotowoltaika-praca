@@ -1,0 +1,9 @@
+.AdminList {
+    padding: 0;
+}
+
+@media (min-width: 1050px) {
+    .AdminList {
+        padding: 0 200px 0;
+    }
+}

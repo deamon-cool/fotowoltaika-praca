@@ -1,0 +1,95 @@
+.AdminListItem {
+    max-width: 100%;
+    background-color: white;
+    padding: 10px 1px;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin: 10px 0;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Marker {
+    font-size: 16px;
+    margin: 10px 0 0 10px;
+}
+
+.ImageContainer {
+    width: 200px;
+    padding: 0 10px 0 5px;
+    margin: auto 0;
+}
+
+.MainInfoCol .AdInfo {
+    text-align: right;
+    font-size: 10px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.MainInfoCol h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* .Position {} */
+
+.Salary {
+    text-align: center;
+    color: rgb(238, 178, 13);
+    margin: 5px 0;
+}
+
+.InfoRow {
+    max-width: 100%;
+    display: flex;
+    flex: row;
+    margin-bottom: 5px;
+}
+
+.Company {
+    font-size: 13px;
+    color: gray;
+    margin-right: auto;
+}
+
+.Place {
+    font-size: 13px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.MoreInfoRow {
+    max-width: 100%;
+    display: none;
+    flex: row;
+}
+
+@media (min-width: 600px) {
+    .Item {
+        margin: 10px 5px;
+    }
+    .MainInfoCol h3 {
+        font-size: 24px;
+    }
+    .Company {
+        font-size: 16px;
+    }
+    .Place {
+        font-size: 16px;
+    }
+    .MoreInfoRow {
+        display: flex;
+    }
+}

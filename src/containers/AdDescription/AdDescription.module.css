@@ -1,0 +1,25 @@
+.AdDescription {
+    padding-bottom: 60px;
+}
+
+.Return {
+    background-color: rgba(226, 226, 226, 0.5);
+    position: fixed;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 15px 0 0 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Return:hover {
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+@media (min-width: 1050px) {
+    .Return {
+        padding: 20px;
+        margin: 60px 0 0 50px;
+    }
+}

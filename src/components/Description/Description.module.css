@@ -1,0 +1,164 @@
+.Description {
+    overflow-y: auto;
+}
+
+.DescriptionColumn {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 1px;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin: 10px 0;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ImageContainer {
+    width: 200px;
+    padding: 0 10px 0 5px;
+    margin: auto 0;
+}
+
+/* .MainInfoCol {} */
+
+.MainInfoCol h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* .Position {} */
+
+.Salary {
+    text-align: center;
+    color: rgb(238, 178, 13);
+    margin: 5px 0;
+}
+
+.Agreement {
+    font-size: 13px;
+    max-width: 100%;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.InfoRow {
+    max-width: 100%;
+    display: flex;
+    flex: row;
+}
+
+.Company {
+    font-size: 13px;
+    color: gray;
+    margin-right: auto;
+}
+
+.Place {
+    font-size: 13px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.MoreInfoRow {
+    max-width: 100%;
+    display: flex;
+    flex: row;
+    margin: 10px 0 30px 0;
+}
+
+.EditorContainer {
+    padding: 10px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.ApplyContainer {
+    padding: 20px 0 0 0;
+    margin: 20px auto;
+    border: 1px solid rgb(226, 226, 226);
+    animation: scaleUp ease-in 0.5s;
+}
+
+.ApplyContainer h3 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.ContactData {
+    text-align: center;
+    font-size: 16px;
+}
+
+.EmailExample {
+    padding: 10px 10px 20px 10px;
+}
+
+.EmailExample h3 {
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+    margin: 0;
+}
+
+.EmailExample textarea {
+    width: 90%;
+    height: 150px;
+    font-size: 16px;
+    color: gray;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.EmailExample textarea:focus {
+    outline: none;
+}
+
+@media (min-width: 600px) {
+    .MainInfoCol h3 {
+        font-size: 24px;
+    }
+    .Company {
+        font-size: 16px;
+    }
+    .Place {
+        font-size: 16px;
+    }
+    .Agreement {
+        font-size: 16px;
+    }
+    .ApplyContainer {
+        padding: 20px 0 0 0;
+        margin: 20px;
+        border: 1px solid rgb(226, 226, 226);
+    }
+}
+
+@media (min-width: 1050px) {
+    .Description {
+        padding: 0 200px;
+        margin: 0 5px;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,35 @@
+.NewAdContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 60px 0; */
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.AdvertiserPanelTitle {
+    margin: 40px auto 5px auto;
+}
+
+.AdsPanelInfo {
+    text-align: center;
+    color: gray;
+    margin-bottom: 22px;
+}
+
+.DescriptionView {
+    animation: scaleUp ease-in 0.5s;
+}
+
+.Submit {
+    margin: 5px auto;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

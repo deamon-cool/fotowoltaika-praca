@@ -1,0 +1,25 @@
+.LinkButton {
+    font-size: 20px;
+    padding: 10px 15px;
+    max-width: 500px;
+    background-color: rgb(238, 178, 13);
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.LinkButton:hover {
+    background-color: rgb(255, 230, 183);
+    cursor: pointer;
+}
+
+.LinkButton:focus {
+    outline: none;
+}
+
+.LinkButton:active {
+    box-shadow: 1px 1px 1px gray;
+}

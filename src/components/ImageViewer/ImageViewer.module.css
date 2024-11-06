@@ -1,0 +1,36 @@
+.ImageViewer {
+    display       : flex;
+    flex-direction: column;
+    width         : 100px;
+    height        : 100px;
+    padding       : 10px 30px;
+}
+
+.Image {
+    max-width    : 100%;
+    max-height   : 100%;
+    border       : 0;
+    border-radius: 10px;
+    font-family  : inherit;
+    font-size    : 15px;
+}
+
+.Button {
+    background-color: rgb(238, 178, 13);
+    position        : relative;
+    width           : 30px;
+    height          : 30px;
+    padding         : 1px;
+    margin-left     : 70px;
+    border          : none;
+    border-radius   : 10px;
+}
+
+.Button:hover {
+    background-color: rgb(255, 230, 183);
+    cursor          : pointer;
+}
+
+.Button:focus {
+    outline: none;
+}

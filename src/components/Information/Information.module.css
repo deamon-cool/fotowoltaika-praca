@@ -1,0 +1,58 @@
+.Information {
+    box-shadow: 0px 2px 5px gray;
+    padding   : 10px 10px 60px 10px;
+    margin    : 20px 0;
+}
+
+.Return {
+    background-color: rgba(226, 226, 226, 0.5);
+    position: fixed;
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Return:hover {
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.Information h3 {
+    text-align: center;
+    font-size : 18px;
+    margin    : 10px 0;
+}
+
+.Information div {
+    font-size  : 16px;
+    line-height: 1.5;
+}
+
+.Information li {
+    font-size      : 16px;
+    line-height    : 1.5;
+    list-style-type: none;
+    padding        : 10px 0;
+    border-top     : 1px solid rgb(226, 226, 226);
+}
+
+@media (min-width: 600px) {
+    .Information h3 {
+        font-size: 24px;
+    }
+
+    .Information div {
+        font-size: 20px;
+    }
+
+    .Information li {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .Information {
+        margin: 20px 200px;
+    }
+}

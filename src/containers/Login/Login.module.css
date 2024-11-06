@@ -1,0 +1,10 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.Title {
+    margin: 22px 0 22px 10px;
+}

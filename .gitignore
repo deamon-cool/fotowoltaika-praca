@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.history/
+src/assets/fontawesome/
+src/containers/NewAd/do zrobienia.txt
+debug.log
+src/do zrobienia.txt
+src/components/List/ListItem/Image/imageBlob-1604578362622.jpeg
+package-lock.json
+my-tests/
+server/node_modules/
+express-server/config/config.json
+express-server/files/POLITYKA-PRYWATNOSCI.pdf
+express-server/files/REGULAMIN.pdf
+express-server/node_modules/
+express-server/tests/
+express-server/uploads/
+do zrobienia.txt
+redux-moje-info.txt

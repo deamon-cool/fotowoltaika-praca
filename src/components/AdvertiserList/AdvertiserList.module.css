@@ -1,0 +1,23 @@
+.AdvertiserList {
+    padding: 0;
+}
+
+.CreateNewAd {
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 10px 0;
+    box-shadow: 0px 2px 5px gray;
+    cursor: pointer;
+}
+
+.CreateNewAd:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+@media (min-width: 1050px) {
+    .AdvertiserList {
+        padding: 0 200px 0;
+    }
+}

@@ -1,0 +1,26 @@
+.Select {
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Select:focus {
+    outline: none;
+}
+
+.Select::placeholder {
+    color: gray;
+}
+
+.Select:hover {
+    outline: none;
+    background-color: rgb(255, 230, 183);
+}
+
+.Select:disabled {
+    background-color: gray;
+}
