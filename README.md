@@ -44,3 +44,6 @@ Business application that collects ads from employers and makes them visible to 
     `npm build`
     - folders/files build, express-server, package.json are production folders/files
     - when running an app: Description is not loaded: **IMPORTANT** run script to convert descriptions `convertEditorContentJSONtoObj.js`
+
+## License
+Polyform Noncommercial License, non-commercial usage.
